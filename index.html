@@ -16,18 +16,18 @@
     <div class="wrapper">
       <header>
         <h1>Benafleck.GitHub.io</h1>
-        <p>A Theme for GitHub Pages</p>
-        <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub <small>orderedlist/minimal</small></a></p>
+        <p>Sharepoint EventHandlerExplorer 2013/2016</p>
+        <p class="view"><a href="https://github.com/lukaszbanasiak/YAPA">View the Project on GitHub <small>BenAfleck/Mikky-sShow</small></a></p>
         <ul>
-          <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
+          <li><a href="https://github.com/BenAfleck/Mikky-sShow/releases/latest">Get binary <strong>Download</strong></a></li>
+          <li><a href="https://github.com/BenAfleck/Mikky-sShow/zipball/master">Get source <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/BenAfleck/Mikky-sShow/tarball/master">Get source <strong>TAR Ball</strong></a></li>
         </ul>
         <p class="view"><a href="https://github.com/BenAfleck">View My GitHub Profile</a></p>
       </header>
       <section>
 
-<h1 id="sharepoint-eventhandlerexplorer">Sharepoint-EventHandlerExplorer</h1>
+<h1 id="sharepoint-eventhandlerexplorer">Sharepoint EventHandlerExplorer</h1>
 
 <p>Sharepoint EventHandlerExplorer 2013/2016, tool that allows to register/unregister SharePoint event receivers to specific Webs, Lists/Libs, or Content Types on the fly.</p>
 
@@ -45,8 +45,8 @@
 <p>EventHandlerExplorer was created by Patrick Tisseghem for WSS 3.0. Since .NET 4.0 there are two types of GAC, so drag-and-drop doesn’t work in Windows 2012. For deploy dll in GAC it is recommended to use powershell:</p>
 
 <pre><code>[System.Reflection.Assembly]::Load('System.EnterpriseServices, Version = 4.0.0.0, Culture = neutral, PublicKeyToken = b03f5f7f11d50a3a');
-    $publish = New-Object System.EnterpriseServices.Internal.Publish;
-    $publish.GacInstall('$fullpath');
+$publish = New-Object System.EnterpriseServices.Internal.Publish;
+$publish.GacInstall('$fullpath');
 </code></pre>
 
 <p>In this release I added powershell wrapper to support this GAC deployment, some other improvements and SharePoint 2013/2016 compatibility.</p>
